@@ -1,0 +1,219 @@
+/* ..............header................. */
+* {
+  margin: 0px;
+}
+
+body {
+  background-image: url("../images/user account background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*from W3school*/
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.menu a.nav6 {
+  background-color: #fcae1e;
+  color: white;
+}
+/* W3school end */
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li.link {
+  float: left;
+}
+
+li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3vw;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* ..............search bar................. */
+.search-container {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+
+/* Style for the search input field */
+.search-input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Style for the search button container */
+.search-button-container {
+  margin-top: 7px;
+}
+
+/* Style for the search button */
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+  background-color: #0056b3;
+}
+/* ..............end of search bar................. */
+/* ..............end of header................. */
+
+/* ..............user account................. */
+.accountinformation {
+  margin: 0 auto;
+  width: 350px;
+  border: 1px solid black;
+  margin-left: 40px;
+}
+
+.accountinformation > h2 {
+  margin-left: 50px;
+}
+
+.accountinformation p {
+  margin-left: 10px;
+}
+
+#name {
+  margin-left: 10px;
+}
+#userid {
+  margin-left: 10px;
+}
+#address {
+  margin-left: 10px;
+}
+.changepassword {
+  margin: 0 auto;
+  width: 350px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.changepassword h2 {
+  margin-left: 50px;
+}
+
+.changepassword p {
+  margin-left: 10px;
+}
+
+#email {
+  margin-left: 10px;
+}
+#oldpassword {
+  margin-left: 10px;
+}
+
+#newpassword {
+  margin-left: 10px;
+}
+/* Style for the update input field */
+.search-input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgb(253, 106, 106);
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Style for the update button container */
+.update-button-container {
+  margin-top: 7px;
+}
+
+/* Style for the update button */
+.update-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 90px;
+}
+
+/* Hover effect for the update button */
+.update-button:hover {
+  background-color: #0056b3;
+}
+
+/* ..............end user account................. */
+
+/* ..........Footer............... */
+
+.footer-distributed {
+  background: #666;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  height: 16vw;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 10px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+/* Footer left */
+.footer-distributed .footer-left {
+  width: 40%;
+  color: white;
+}
+
+.footer-distributed .footer-left > h3 {
+  font-size: 3vw;
+  font-family: monospace;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+/* Footer Center */
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center p {
+  color: white;
+}
+
+/* Footer Right */
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-right span {
+  color: white;
+}
+
+.footer-distributed .footer-right p {
+  color: gray;
+}
+/* ..........end of Footer............... */

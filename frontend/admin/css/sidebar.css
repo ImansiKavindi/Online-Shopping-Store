@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* Light mode styles */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.logo img,
+.profile img {
+  width: 50px;
+  height: 50px;
+  padding: 16px;
+}
+
+.logo span {
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+}
+
+.profile {
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+
+.lower-left {
+  position: absolute;
+  width: 87%;
+  bottom: 0%;
+  left: 0;
+}
+
+/* Night mode styles */
+body.dark-mode {
+  background-color: #333;
+}
+
+.sidebar.dark-mode {
+  background-color: #222;
+}
+
+.sidebar.dark-mode a {
+  color: white;
+}
+
+.sidebar.dark-mode a:hover {
+  background-color: #888;
+}
+
+.logo.dark-mode span {
+  color: white;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
+  color: black;
+}
+
+/* Styling the toggle switch */
+.toggle-label::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 32px;
+  height: 16px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-label::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.toggle-checkbox:checked + .toggle-label::before {
+  background-color: #555;
+}
+
+.toggle-checkbox:checked + .toggle-label::after {
+  transform: translateX(16px);
+}

@@ -1,0 +1,131 @@
+body
+{
+ 
+  background-image: url("../images/image2.jpg");
+  background-size: 100% 10000%;
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.welcome
+{
+   background-color: rgba(248, 252, 248, 0);
+    padding: 20px;
+    position: absolute;
+    top: 0%;
+    left: 8%;
+    width: 350px;
+    height: 200px;
+    color: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1
+  {
+    color :rgb(250, 244, 244);
+  }
+
+  .switch-buttons 
+  {
+    text-align: center;/* Center-align the buttons horizontally */
+    margin-top: 10px; 
+  }
+  
+  .switch-buttons a 
+  {
+    text-decoration: none; /* Remove underlines from the links */
+    padding: 8px 35px; /* Adjust padding as needed */
+    margin: 0px; /* Add spacing between the buttons */
+    border: 3px solid #75027523;
+    background-color: #f53fb83d; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 5px; /* Button border radius */
+   
+  }
+  
+  .switch-buttons a:hover,
+  a.google-login:hover,
+  a.facebook-login:hover 
+  {
+    background-color: #74026e; /* Button background color on hover */
+  }
+  
+  .switch-buttons a.active 
+  {
+    background-color:rgba(247, 40, 178, 0.87);
+  }
+
+
+  input[type=password],input[type=text]
+  {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #f771f7;
+    border-radius: 9px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+
+  
+
+  .container
+   {
+    border-radius: 8px;
+    background-color: rgba(248, 252, 248, 0.103);
+    padding: 20px;
+    position: absolute;
+    top: 15%;
+    left:20%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 500px;
+    border-color: black;
+    
+}
+
+input[type=submit] 
+{
+    background-color: #0a0a0af5;
+    color: rgb(250, 249, 249);
+    padding: 12px 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+
+  input[type=submit]:hover
+   {
+    background-color:  #74026e;
+  }
+
+  .button-container 
+  {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+  .social-login
+   {
+    margin-top: 30px;
+    text-align: center;
+}
+
+a.google-login,
+a.facebook-login 
+{
+    display: inline-block;
+    padding: 10px 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-decoration:none;
+    background-color: #8105a777;
+    color: #faf4f4;
+   
+}

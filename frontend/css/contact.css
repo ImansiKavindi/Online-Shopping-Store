@@ -1,0 +1,72 @@
+body{
+    background-image: url("Contact1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 20px;
+}
+.main{
+    color: ghostwhite;
+}
+.Ttext{
+    color: ghostwhite;
+    font-size: 150%;
+   
+}
+.Rnum{
+    background-color: transparent;
+    border-color: black;
+    margin: 10px;
+    color: white;
+}
+.Fname{
+    background-color: transparent;
+    border-color: black;
+    margin: 10px;
+    color: white;
+}
+
+.cont{
+    background-color: transparent;
+    border-color: black;
+    margin: 10px;
+    color: white;
+}
+.question{
+   
+    position: fixed;
+    font-size: larger;
+    background-color:transparent;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    color: white;
+}
+.email{
+    position: fixed;
+    font-size: larger;
+    background-color:transparent;
+    border-color: black;
+    margin: 10px;
+    color: white;
+}
+
+
+form button{
+    background-color: red;
+    text-align: center;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    margin: 20px auto 0;
+   font-size: 20px;
+   margin-left: 100px;
+
+    
+    
+}
+.media{
+   width: 40px;
+   height: 20px ;
+   
+}

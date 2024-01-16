@@ -1,0 +1,107 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* Content container */
+  .content {
+    margin-left: 260px;
+    padding: 57px 0;
+    /* height: 1000px; */
+  }
+  
+  /* Title styles */
+  .title {
+    padding: 10px 15px;
+  }
+  
+  .title h2 {
+    background-color: #0A223D;
+    color: #FBD822;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+  /* Table styles */
+  .table-data {
+    padding: 0 15px;
+  }
+  
+  .table-data table {
+    width: 100%;
+    outline: none;
+    border-collapse: collapse;
+  }
+  
+  .table-data table tr {
+    height: 50px;
+  }
+  
+  .table-data table td {
+    text-align: center;
+  }
+  
+  /* Alternate row background color */
+  table tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  
+  /* Delete button styles */
+  .del-btn {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 70px;
+  }
+   .del-btn :hover {
+    text-decoration: underline;
+  } 
+  
+  .del-btn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Add button styles */
+  .add-btn {
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .add-btn button {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 250px;
+  }
+  
+  .add-btn button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .add-btn :hover{
+    text-decoration: underline;
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  /* Styles for the pop-up box */
+    
+
+
+
+  

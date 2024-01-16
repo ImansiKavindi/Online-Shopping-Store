@@ -1,0 +1,88 @@
+
+
+
+body {
+  background-image: url("../images/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial;
+  font-size: large;
+}
+
+
+  h1{
+    color: white;
+   
+  }
+
+  /* Style for the switch buttons */
+.switch-buttons {
+  text-align: center;/* Center-align the buttons horizontally */
+  margin-top: 10px; 
+}
+
+.switch-buttons a {
+  text-decoration: none; /* Remove underlines from the links */
+  padding: 8px 35px; /* Adjust padding as needed */
+  margin: 0px; /* Add spacing between the buttons */
+  border: 3px solid #7502753d;
+  background-color: #f5913f5b; /* Button background color */
+  color: #fff; /* Button text color */
+  border-radius: 5px; /* Button border radius */
+ 
+}
+
+.switch-buttons a:hover {
+  background-color: #b300a45b; /* Button background color on hover */
+}
+
+.switch-buttons a.active {
+  background-color:rgba(245, 102, 7, 0.87);
+}
+  
+  input[type=email],input[type=password],input[type=text]
+  {
+    width: 95%;
+    padding: 12px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 1px solid #f771f7;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+input[type=submit] {
+    background-color: #070707;
+    color: rgb(253, 248, 248);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  
+  input[type=submit]:hover {
+    background-color: #f00404b6;
+  }
+  .container {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.219);
+    padding: 20px;
+    position: absolute;
+    top: 8%;
+    left: 65%;
+    transform: translateX(-50%);
+    width: 350px;
+    border-color: black;
+    
+}

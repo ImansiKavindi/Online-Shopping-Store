@@ -1,0 +1,199 @@
+/* ..............header................. */
+*{
+    margin: 0px;
+}
+
+
+/*from W3school*/
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .menu a.nav5 {
+    background-color: #FCAE1E;
+    color: white;
+  }
+/* W3school end */
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li.link {
+  float: left;
+}
+
+li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3vw;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* ..............search bar................. */
+.search-container {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+/* Style for the search input field */
+.search-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Style for the search button container */
+.search-button-container {
+    margin-top: 7px;
+}
+
+/* Style for the search button */
+.search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query for responsiveness */
+/*
+@media (max-width: 768px) {
+    .search-container {
+        margin-left: 0;
+    }
+
+    .search-button-container {
+        margin-left: 0;
+    }
+}
+*/
+/* ..............end of search bar................. */
+
+/* ..............end of header................. */
+
+/*valentino shopping cart bar*/
+.rectangle {
+    width: 100%; 
+    height: 35px; 
+    border: 2px solid rgb(241, 196, 15); 
+    background-color: rgb(241, 196, 15);
+    text-align: center;
+    display:inline-block; /* Added to make it inline with the .Total div */
+    box-sizing: border-box; /* Added to include padding and border in the width */
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+
+
+  
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.cart-items table {
+    width: 75%;
+}
+
+.cart-items th, .cart-items td {
+    padding: 10px;
+    text-align: left;
+}
+
+.summary {
+    width: 23%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.purchase-summary {
+    font-weight: bold;
+}
+
+.purchase-btn-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+/* ..........Footer............... */
+
+.footer-distributed {
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    height: 16vw;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  /* Footer left */
+  .footer-distributed .footer-left {
+    width: 40%;
+    color: white;
+
+  }
+
+  .footer-distributed .footer-left>h3{
+    font-size: 3vw;
+    font-family: monospace;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+  }
+  
+  /* Footer Center */
+  .footer-distributed .footer-center {
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center p{
+    color: white;
+  }
+  
+  /* Footer Right */
+  .footer-distributed .footer-right {
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-right span{
+    color: white;
+  }
+  
+  .footer-distributed .footer-right p{
+    color: gray;
+  }
+  /* ..........end of Footer............... */
